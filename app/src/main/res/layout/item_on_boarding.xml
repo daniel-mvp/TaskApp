@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    android:orientation="vertical">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_image"
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:layout_marginTop="98dp"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="reach_your_goal.json"
+        app:lottie_loop="true" />
+
+    <TextView
+        android:id="@+id/tv_tittle_view_pager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="45dp"
+        android:text="Экономь время"
+        android:textColor="@color/white"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="66dp"
+        android:background="@drawable/rectangle_button"
+        android:textColor="@color/purple"
+        tools:text="Начинаем" />
+
+</LinearLayout>

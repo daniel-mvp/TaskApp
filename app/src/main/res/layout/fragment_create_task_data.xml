@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rectange_bottom_sheet_dialog"
+    android:orientation="vertical"
+    android:paddingHorizontal="51dp"
+    android:paddingTop="24dp"
+    tools:context=".ui.fragments.CreateTaskData">
+
+    <EditText
+        android:id="@+id/et_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle_button"
+        android:hint="task"
+        android:padding="12dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="14dp"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_button"
+            android:drawableEnd="@drawable/ic_calendar"
+            android:paddingEnd="4dp"
+            android:text="19.08.2022" />
+
+        <Button
+            android:id="@+id/btn_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/rectangle_button"
+            android:drawableEnd="@drawable/ic_down"
+            android:paddingEnd="4dp"
+            android:text="Каждый день" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_apply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="26dp"
+        android:backgroundTint="@color/purple"
+        android:text="Принять"
+        android:textColor="@color/white" />
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="18dp"
+    android:padding="25dp"
+    android:background="@drawable/rectangle_item_task"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_tittle_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        tools:text="Гулять" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="7dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="27dp"
+            android:textSize="16sp"
+            tools:text="Каждый день" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="21dp"
+            android:text="23.01.2022"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </FrameLayout>
+</LinearLayout>

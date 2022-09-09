@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TaskApp/app/src/main/res/drawable/rectange_bottom_sheet_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TaskApp/app/src/main/res/drawable/rectangle_button.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TaskApp/app/src/main/res/drawable/rectangle_item_task.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TaskApp/app/src/main/res/drawable/rounding_profile_info.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TaskApp/app/src/main/res/drawable/view_registration_button.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TaskApp/app/src/main/res/drawable/view_registration_edit_text.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TaskApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TaskApp/app/src/main/res/layout/dialog_regular.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TaskApp/app/src/main/res/layout/fragment_auth.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TaskApp/app/src/main/res/layout/fragment_confirm_password.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TaskApp/app/src/main/res/layout/fragment_create_profile.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TaskApp/app/src/main/res/layout/fragment_create_task_data.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TaskApp/app/src/main/res/layout/fragment_date_picker.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TaskApp/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TaskApp/app/src/main/res/layout/fragment_on_boarding.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TaskApp/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TaskApp/app/src/main/res/layout/fragment_registration.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TaskApp/app/src/main/res/layout/fragment_welcome.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TaskApp/app/src/main/res/layout/item_on_boarding.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/TaskApp/app/src/main/res/layout/item_task.xml" value="0.24895833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

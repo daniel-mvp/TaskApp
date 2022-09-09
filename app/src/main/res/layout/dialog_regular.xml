@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title_regular"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        android:gravity="center_horizontal"
+        android:paddingVertical="25dp"
+        android:text="Регулярность"
+        android:textColor="@color/white"
+        android:textSize="19sp" />
+
+    <RadioButton
+        android:id="@+id/btn_everyday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/purple"
+        android:text="Каждый день"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/purple"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/btn_every_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/purple"
+        android:text="Каждую Неделю"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/purple"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/btn_month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:buttonTint="@color/purple"
+        android:text="Каждый месяц"
+        android:textColor="@color/purple"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/btn_every_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/purple"
+        android:text="Каждый год"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/purple"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Отменить"
+        android:textColor="@color/purple"
+        android:layout_margin="10dp"
+        android:textSize="20sp" />
+
+</LinearLayout>
