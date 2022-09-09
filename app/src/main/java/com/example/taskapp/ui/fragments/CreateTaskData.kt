@@ -11,12 +11,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.Window
-import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.taskapp.R
 import com.example.taskapp.databinding.DialogRegularBinding
 import com.example.taskapp.databinding.FragmentCreateTaskDataBinding
-import com.example.taskapp.ui.App
+import com.example.taskapp.App
 import com.example.taskapp.ui.fragments.models.TaskModel
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.firebase.firestore.ktx.firestore

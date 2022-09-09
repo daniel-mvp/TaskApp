@@ -7,9 +7,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.taskapp.R
 import com.example.taskapp.databinding.FragmentHomeBinding
-import com.example.taskapp.ui.App
+import com.example.taskapp.App
 import com.example.taskapp.ui.adapters.TaskAdapter
 import com.example.taskapp.ui.fragments.models.TaskModel
 import com.example.taskapp.ui.inter.OnItemClickHome
